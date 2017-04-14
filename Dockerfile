@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-runner:v1.11.1
+FROM gitlab/gitlab-runner:v9.0.0
 
 RUN curl https://get.docker.com | sh -
 
@@ -10,4 +10,3 @@ RUN chmod a+x /usr/bin/start.sh
 ENTRYPOINT ["sh","-c"]
 
 CMD ["/usr/bin/start.sh"]
-
