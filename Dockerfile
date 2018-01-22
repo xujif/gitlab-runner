@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-runner:v9.0.2
+FROM gitlab/gitlab-runner:v10.3.0
 
 RUN curl https://get.docker.com | sh -
 
