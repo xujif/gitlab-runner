@@ -13,3 +13,11 @@ else
 fi
 ```
 
+
+### 注册信息
+```bash
+CI_SERVER_URL=http://gitlab.example.com
+RUNNER_NAME=my-runner
+REGISTRATION_TOKEN=my-registration-token
+REGISTER_NON_INTERACTIVE=true
+```
