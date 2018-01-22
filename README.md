@@ -15,6 +15,13 @@ fi
 
 
 ### 注册信息
+environment:
+  - RUNNER_TAG_LIST
+  - CI_SERVER_URL
+  - REGISTRATION_TOKEN
+  - RUNNER_EXECUTOR
+#### 全部
+
 ```bash
 NAME:
    register - register a new runner
